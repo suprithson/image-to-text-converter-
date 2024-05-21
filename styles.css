@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('your-background-image.jpg'); /* Set your background image here */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #333; /* Dark gray text color */
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #f1c40f; /* Bright yellow background color */
+    color: #333; /* Dark gray text color */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.custom-file-upload:hover {
+    background-color: #f39c12; /* Brighter yellow on hover */
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: #3498db; /* Bright blue background color */
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
